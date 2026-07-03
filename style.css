@@ -1,0 +1,86 @@
+/* header */
+body {
+  font-family: neue, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 1em 0 0 2em;
+  background: rgb(116, 43, 33);
+  color: white;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile {
+  display: flex;
+}
+
+
+.profile-name {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  font-size: .95rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
+  margin-right: 2em; 
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+li:hover {
+  border-bottom: 2px solid white;
+  opacity: 0.8;
+}
+
+/* Body */
+
+.welcome-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3em;
+}
+
+.student-img-cont {
+  width: 50%;
+  padding: 2em;
+  margin: 2em;
+  background: white;
+  border-radius: 50%;
+}
+
+.student-img {
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 2.3rem;
+  width: 100%;
+}
