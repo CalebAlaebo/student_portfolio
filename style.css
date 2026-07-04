@@ -84,3 +84,51 @@ h1 {
   font-size: 2.3rem;
   width: 100%;
 }
+
+.biography-cont {
+  display: flex;
+}
+.biography-img-cont {
+  width: 100%;
+  background: white;
+}
+.biography-img {}
+.biography-txt-cont {
+  width: 100%;
+  background: white;
+  padding: 1em;
+}
+.biography-txt {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(116, 43, 33);
+}
+
+.motivation-cont {
+  background: white;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+.motiva-wrd-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.word {
+  color: rgb(116, 43, 33);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.author {
+  padding: 1em;
+}
+
+.author span {
+  font-style: italic;
+  font-weight: 700;
+  color: rgb(116, 43, 33);
+  text-align: center;
+}
