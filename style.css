@@ -3,9 +3,12 @@ body {
   font-family: neue, sans-serif;
   font-size: 16px;
   margin: 0;
-  padding: 1em 0 0 2em;
   background: rgb(116, 43, 33);
   color: white;
+}
+
+.container {
+  margin: 2em;
 }
 
 img {
@@ -27,6 +30,10 @@ img {
 .profile-name {
   font-weight: 700;
   cursor: pointer;
+  transition: 0.15s ease-in-out;
+}
+.profile-name:hover {
+  opacity: 0.8;
 }
 
 .nav {
@@ -87,25 +94,28 @@ h1 {
 
 .biography-cont {
   display: flex;
+  align-items: center;
 }
 .biography-img-cont {
-  width: 100%;
-  background: white;
+  width: 50%;
+  padding: 1em;
 }
-.biography-img {}
+.biography-img {
+  border-radius: 50px;
+}
+
 .biography-txt-cont {
   width: 100%;
-  background: white;
+  background: rgb(116, 43, 33);
   padding: 1em;
 }
 .biography-txt {
   font-size: 1.5rem;
   font-weight: 700;
-  color: rgb(116, 43, 33);
+  color: white;
 }
 
 .motivation-cont {
-  background: white;
   padding: 1em;
   margin-top: 2em;
 }
@@ -117,18 +127,63 @@ h1 {
 }
 
 .word {
-  color: rgb(116, 43, 33);
+  color: white;
   font-size: 3rem;
   text-align: center;
 }
 
 .author {
-  padding: 1em;
-}
-
-.author span {
   font-style: italic;
   font-weight: 700;
-  color: rgb(116, 43, 33);
+  color: white;
   text-align: center;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  background: white;
+  border-radius: 30px;
+  padding: 1em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.footer-img-cont {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
+
+.footer-img {
+  width: 20%;
+  cursor: pointer;
+  
+}
+
+.btn-cont {
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  border-width: 0;
+  background: rgb(116, 43, 33);
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.15s ease-in-out;
+}
+.btn:hover {
+  background: white;
+  color: rgb(116, 43, 33);
+  border: 1px solid black;
+}
+.btn:active {
+  opacity: 0.8;
+  background: rgb(116, 43, 33);
+  color: white;
 }
