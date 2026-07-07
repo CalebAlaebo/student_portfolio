@@ -3,7 +3,7 @@ body {
   font-family: neue, sans-serif;
   font-size: 16px;
   margin: 0;
-  background: rgb(116, 43, 33);
+  background: rgba(141, 96, 23, 0.745);
   color: white;
 }
 
@@ -56,6 +56,7 @@ a {
 
 a:hover {
   opacity: 0.8;
+  color: black;
 }
 
 li:hover {
@@ -106,7 +107,7 @@ h1 {
 
 .biography-txt-cont {
   width: 100%;
-  background: rgb(116, 43, 33);
+  background: gery;
   padding: 1em;
 }
 .biography-txt {
@@ -143,7 +144,6 @@ h1 {
 
 footer {
   display: flex;
-  background: white;
   border-radius: 30px;
   padding: 1em;
   align-items: center;
@@ -160,30 +160,98 @@ footer {
 .footer-img {
   width: 20%;
   cursor: pointer;
-  
-}
-
-.btn-cont {
 }
 
 .btn {
+  display: flex;
+  flex-direction: column;
   width: 100px;
   height: 30px;
   border-width: 0;
-  background: rgb(116, 43, 33);
-  color: white;
+  background: white;
+  color: rgba(141, 96, 23, 0.745);
+  justify-content: center;
+  text-align: center;
+  font-size: .8rem;
   font-weight: 700;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.15s ease-in-out;
 }
 .btn:hover {
-  background: white;
-  color: rgb(116, 43, 33);
-  border: 1px solid black;
+  background: black;
+  color: white;
 }
 .btn:active {
   opacity: 0.8;
-  background: rgb(116, 43, 33);
-  color: white;
+  background: white;
+  color: rgba(141, 96, 23, 0.745);
+}
+/* about me */
+
+.about-info-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-header-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-header {
+  margin: 3.5em;
+  font-weight: 800;
+}
+
+.about-sub {
+  text-align: center;
+  width: 70%;
+  margin: 0;
+  font-weight: 900;
+}
+
+.about-sub2 {
+  text-align: center;
+  text-align: center;
+  width: 60%;
+  margin: 1em;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.about-img-cont {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.about-img {
+  width: 70%;
+  border-radius: 30px;
+}
+
+.about-msg-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-msg-header {
+  text-align: center;
+  text-align: center;
+  width: 60%;
+  margin: 1em;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.about-msg {
+  text-align: center;
+  width: 70%;
+  margin: 0;
+  font-weight: 900;
+  margin: 3em;
 }
