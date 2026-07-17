@@ -468,15 +468,62 @@ footer {
 
 .semester-goals-cont-1 {
   display: flex;
+  padding-left: 20em;
+  padding-right: 20em;
+}
+
+.study {
+  padding-top: .50em;
+}
+
+.check-icon {
+  padding-top: 2.7em;
+  width: 50px;
+  height: 25px;
+  width: 30%;
+}
+
+.check-icon-2 {
+  padding-top: .80em;
+  padding-left: 3em;
+  width: 50px;
+  height: 25px;
+  width: 30%;
+}
+
+.check-icon-3 {
+  padding-top: .70em;
+  width: 50px;
+  height: 25px;
+  width: 30%;
+}
+
+.check-icon-4 {
+  padding-top: 1em;
+  width: 50px;
+  height: 25px;
+  width: 30%;
 }
 
 .semester-goals-1 {}
 
-.semester-goals-2 {}
+.semester-goals-2 {
+  margin-left: 2em;
+}
 
 .progress-cont {}
 
 .weekly-study-cont {}
+
+.week-study {
+  font-weight: 700;
+}
+
+.schedule {
+  display: flex;
+  justify-content: space-between;
+  padding: 5em;
+}
 
 .days-cont {}
 
