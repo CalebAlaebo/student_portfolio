@@ -43,7 +43,7 @@ img {
   cursor: pointer;
 }
 
-ul li {
+ul .list {
   list-style: none;
   margin-right: 2em; 
 }
@@ -59,7 +59,7 @@ a:hover {
   color: black;
 }
 
-li:hover {
+.list:hover {
   border-bottom: 2px solid white;
   opacity: 0.8;
 }
@@ -255,3 +255,236 @@ footer {
   font-weight: 900;
   margin: 3em;
 }
+
+.contact-class-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-img-cont {
+  width: 40%;
+}
+
+.contact-img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.contact-class {
+  margin: 1em;
+}
+
+.contact {
+  font-size: 5.5rem;
+  text-align: center;
+}
+
+.name {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.name-cont {
+  width: 30em;
+  height: 3em;
+  border-radius: 10px;
+  border-width: 1px;
+  flex: 1;
+  padding-left: 1em;
+  font-size: 16px;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 10px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.email {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.email-cont {
+  width: 30em;
+  height: 3em;
+  border-radius: 10px;
+  border-width: 1px;
+  padding-left: 1em;
+  font-size: 16px;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 10px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.phone {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.phone-cont {
+  width: 30em;
+  height: 3em;
+  border-radius: 10px;
+  border-width: 1px;
+  padding-left: 1em;
+  font-size: 16px;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 10px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.message {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.message-cont {
+  width: 30em;
+  height: 10em;
+  border-radius: 10px;
+  border-width: 1px;
+  padding-left: 1em;
+  font-size: 16px;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 10px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.btn-2 {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 30px;
+  border-width: 0;
+  background: white;
+  color: rgba(141, 96, 23, 0.745);
+  justify-content: center;
+  text-align: center;
+  margin-top: 1em;
+  font-size: .8rem;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.15s ease-in-out;
+}
+.btn-2:hover {
+  background: black;
+  color: white;
+}
+.btn-2:active {
+  opacity: 0.8;
+  background: white;
+  color: rgba(141, 96, 23, 0.745);
+}
+
+.proj-title {
+  font-size: 5.5rem;
+  text-align: center;
+}
+
+.project-holder {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+  padding: 3em;
+  margin-bottom:
+}
+
+.project {
+  border-top: 1px white solid;
+  border-bottom: 1px white solid;
+  margin-bottom: 5em;
+}
+
+.sub-message {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.categoory {
+  font-weight: 700;
+}
+
+.academic-planner-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.academic-header {
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.sub-msg {
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0;
+}
+
+.student-info-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 5em;
+}
+
+.student-info-cont-1 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20em;
+  padding-right: 20em;
+}
+
+.item {
+  font-weight: 700;
+  font-style: italic;
+  border-bottom: 1px white solid;
+}
+
+.details {
+  font-weight: 700;
+  font-style: italic;
+  border-bottom: 1px white solid;
+}
+
+.student-info {
+  font-weight: 700;
+}
+
+.student-info-1 {
+  margin-bottom: 2em;
+}
+
+.student-info-2 {}
+
+.semester-goals-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.semester-goals {
+  font-weight: 700;
+}
+
+.semester-goals-cont-1 {
+  display: flex;
+}
+
+.semester-goals-1 {}
+
+.semester-goals-2 {}
+
+.progress-cont {}
+
+.weekly-study-cont {}
+
+.days-cont {}
+
+.activity-cont {}
+
+.time-cont {}
+
+
+@media (max-width: 1020px) {}
+
+@media (max-width: 640px) {}
