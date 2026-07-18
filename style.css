@@ -261,10 +261,6 @@ footer {
   justify-content: center;
 }
 
-.contact-img-cont {
-  width: 40%;
-}
-
 .contact-img {
   width: 100%;
   border-radius: 25px;
@@ -532,6 +528,134 @@ footer {
 .time-cont {}
 
 
-@media (max-width: 1020px) {}
+@media (max-width: 1020px) {
+  .student-info-cont {
+    padding: 0;
+  }
 
-@media (max-width: 640px) {}
+  .student-info-cont-1 {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .student-info-1 {
+    margin: 1em;
+    padding: 0;
+  }
+
+  .student-info-2 {
+    margin: 1em;
+    padding: 0;
+  }
+
+  .semester-goals-cont-1 {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 1em;
+  }
+
+  .schedule {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .time-cont {
+    width: 45%;
+  }
+}
+
+@media (max-width: 640px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list {
+    margin-bottom: 1em;
+  }
+
+  .welcome-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .biography-cont {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-class-cont {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+  }
+
+  .contact-class {
+  }
+
+  .email-cont {
+    width: 20em;
+    height: 3em;
+  }
+
+  .phone-cont {
+    width: 20em;
+    height: 3em;
+  }
+
+  .name-cont {
+    width: 20em;
+    height: 3em;
+  }
+
+  .message-cont {
+    width: 20em;
+    height: 10em;
+  }
+
+  .student-info-cont {
+    padding: 0;
+  }
+
+  .student-info-cont-1 {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .student-info-1 {
+    margin: 1em;
+    padding: 0;
+  }
+
+  .student-info-2 {
+    margin: 1em;
+    padding: 0;
+  }
+
+  .semester-goals-cont-1 {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 1em;
+  }
+
+  .schedule {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .time-cont {
+    width: 45%;
+  }
+}
